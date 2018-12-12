@@ -1,10 +1,10 @@
 <http://schema.alod.ch/schema/Record> <http://purl.org/dc/terms/modified> "2018-09-13"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://schema.alod.ch/schema/Record> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.alod.ch/schema/Record> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://schema.alod.ch/schema/Record> <http://www.w3.org/2000/01/rdf-schema#comment> "A physical item in an archive." .
 <http://schema.alod.ch/schema/Record> <http://www.w3.org/2000/01/rdf-schema#description> "A physical item in an archive." .
 <http://schema.alod.ch/schema/Record> <http://www.w3.org/2000/01/rdf-schema#label> "Record" .
 <http://schema.alod.ch/schema/title> <http://purl.org/dc/terms/modified> "2018-09-13"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://schema.alod.ch/schema/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.alod.ch/schema/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://schema.alod.ch/schema/title> <http://www.w3.org/2000/01/rdf-schema#description> "Title of the Record." .
 <http://schema.alod.ch/schema/title> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.alod.ch/schema/Record> .
 <http://schema.alod.ch/schema/title> <http://www.w3.org/2000/01/rdf-schema#label> "title" .
