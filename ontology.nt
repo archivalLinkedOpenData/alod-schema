@@ -1,3 +1,8 @@
+<http://schema.alod.ch/aLOD/Municipality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://schema.alod.ch/aLOD/Municipality> <http://www.w3.org/2000/01/rdf-schema#comment> "Plus petite unité politique " .
+<http://schema.alod.ch/aLOD/Municipality> <http://www.w3.org/2000/01/rdf-schema#label> "Municipality" .
+<http://schema.alod.ch/aLOD/Municipality> <http://www.w3.org/2004/02/skos/core#example> "Biel/Bienne" .
+<http://schema.alod.ch/aLOD/Municipality> <http://www.w3.org/2004/02/skos/core#note> "Est associée à un district et/ou un canton"^^<http://media-type.described.at/text/markdown> .
 <http://schema.alod.ch/aLOD/TerritorialCommunity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://schema.alod.ch/aLOD/TerritorialCommunity> <http://www.w3.org/2000/01/rdf-schema#comment> "Gebietskörperschaft" .
 <http://schema.alod.ch/aLOD/TerritorialCommunity> <http://www.w3.org/2000/01/rdf-schema#label> "TerritorialCommunity" .
