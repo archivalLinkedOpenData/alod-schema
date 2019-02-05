@@ -1,9 +1,17 @@
+<http://schema.alod.ch/aLOD/Canton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://schema.alod.ch/aLOD/Canton> <http://www.w3.org/2000/01/rdf-schema#comment> "sfasfasd" .
+<http://schema.alod.ch/aLOD/Canton> <http://www.w3.org/2000/01/rdf-schema#label> "Canton" .
+<http://schema.alod.ch/aLOD/identifier> <http://schema.org/domainIncludes> <http://schema.alod.ch/aLOD/Canton> .
 <http://schema.alod.ch/aLOD/identifier> <http://schema.org/domainIncludes> <http://schema.alod.ch/aLOD/Municipality> .
 <http://schema.alod.ch/aLOD/identifier> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
 <http://schema.alod.ch/aLOD/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://schema.alod.ch/aLOD/identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "short identifier" .
 <http://schema.alod.ch/aLOD/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "identifier" .
 <http://schema.alod.ch/aLOD/identifier> <http://www.w3.org/2004/02/skos/core#note> "Comment indiquer que la propriété appartient à une autre ontologie? P. ex. purl:identifier"^^<http://media-type.described.at/text/markdown> .
+<http://schema.alod.ch/aLOD/longName> <http://schema.org/domainIncludes> <http://schema.alod.ch/aLOD/Canton> .
+<http://schema.alod.ch/aLOD/longName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://schema.alod.ch/aLOD/longName> <http://www.w3.org/2000/01/rdf-schema#comment> "asdfasdf" .
+<http://schema.alod.ch/aLOD/longName> <http://www.w3.org/2000/01/rdf-schema#label> "longName" .
 <http://schema.alod.ch/aLOD/Municipality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://schema.alod.ch/aLOD/Municipality> <http://www.w3.org/2000/01/rdf-schema#comment> "Plus petite unité politique " .
 <http://schema.alod.ch/aLOD/Municipality> <http://www.w3.org/2000/01/rdf-schema#label> "Municipality" .
