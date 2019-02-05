@@ -1,6 +1,7 @@
 <http://schema.alod.ch/aLOD/Canton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://schema.alod.ch/aLOD/Canton> <http://www.w3.org/2000/01/rdf-schema#comment> "sfasfasd" .
 <http://schema.alod.ch/aLOD/Canton> <http://www.w3.org/2000/01/rdf-schema#label> "Canton" .
+<http://schema.alod.ch/aLOD/Canton> <http://www.w3.org/2004/02/skos/core#note> "this is a long description"^^<http://media-type.described.at/text/markdown> .
 <http://schema.alod.ch/aLOD/identifier> <http://schema.org/domainIncludes> <http://schema.alod.ch/aLOD/Canton> .
 <http://schema.alod.ch/aLOD/identifier> <http://schema.org/domainIncludes> <http://schema.alod.ch/aLOD/Municipality> .
 <http://schema.alod.ch/aLOD/identifier> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
