@@ -1,6 +1,5 @@
-<http://schema.alod.ch/groups/> <http://schema.org/hasPart> <http://schema.alod.ch/aLOD/> .
-<http://schema.alod.ch/groups/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <http://schema.alod.ch/aLOD/> <http://schema.org/hasPart> <http://schema.alod.ch/aLOD/ArchivalResource> .
+<http://schema.alod.ch/aLOD/> <http://schema.org/hasPart> <http://schema.alod.ch/aLOD/Municipality> .
 <http://schema.alod.ch/aLOD/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <http://schema.alod.ch/aLOD/> <http://www.w3.org/2000/01/rdf-schema#label> "aLOD Group" .
 <http://schema.alod.ch/aLOD/ArchivalResource> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -8,3 +7,5 @@
 <http://schema.alod.ch/aLOD/ArchivalResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <http://schema.alod.ch/aLOD/ArchivalResource> <http://www.w3.org/2000/01/rdf-schema#comment> "All classes defined by the aLOD Association." .
 <http://schema.alod.ch/aLOD/ArchivalResource> <http://www.w3.org/2000/01/rdf-schema#label> "Archival Resource" .
+<http://schema.alod.ch/groups/> <http://schema.org/hasPart> <http://schema.alod.ch/aLOD/> .
+<http://schema.alod.ch/groups/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
