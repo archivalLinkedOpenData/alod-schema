@@ -1,3 +1,6 @@
+<http://schema.alod.ch/aLOD/TerritorialCommunity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://schema.alod.ch/aLOD/TerritorialCommunity> <http://www.w3.org/2000/01/rdf-schema#comment> "Gebietskörperschaft" .
+<http://schema.alod.ch/aLOD/TerritorialCommunity> <http://www.w3.org/2000/01/rdf-schema#label> "TerritorialCommunity" .
 <http://schema.alod.ch/schema/Record> <http://purl.org/dc/terms/modified> "2018-09-13"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://schema.alod.ch/schema/Record> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://schema.alod.ch/schema/Record> <http://www.w3.org/2000/01/rdf-schema#comment> "A physical item in an archive." .
