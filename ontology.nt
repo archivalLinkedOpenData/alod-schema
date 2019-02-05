@@ -1,3 +1,7 @@
+<http://schema.alod.ch/aLOD/Municipality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://schema.alod.ch/aLOD/Municipality> <http://www.w3.org/2000/01/rdf-schema#comment> "Plus petite unité politique en Suisse" .
+<http://schema.alod.ch/aLOD/Municipality> <http://www.w3.org/2000/01/rdf-schema#label> "Municipality" .
+<http://schema.alod.ch/aLOD/Municipality> <http://www.w3.org/2004/02/skos/core#note> "Terme désignant la plus petite unité politique définie, dans le découpage institutionnel suisse. Unité déterminée sans ambiguïté par un territoire de compétence et un nom. (eCH)"^^<http://media-type.described.at/text/markdown> .
 <http://schema.alod.ch/schema/Record> <http://purl.org/dc/terms/modified> "2018-09-13"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://schema.alod.ch/schema/Record> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://schema.alod.ch/schema/Record> <http://www.w3.org/2000/01/rdf-schema#comment> "A physical item in an archive." .
