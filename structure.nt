@@ -1,4 +1,5 @@
 <http://schema.alod.ch/aLOD/> <http://schema.org/hasPart> <http://schema.alod.ch/aLOD/ArchivalResource> .
+<http://schema.alod.ch/aLOD/> <http://schema.org/hasPart> <http://schema.alod.ch/aLOD/Municipality> .
 <http://schema.alod.ch/aLOD/> <http://schema.org/hasPart> <http://schema.alod.ch/aLOD/TerritorialCommunity> .
 <http://schema.alod.ch/aLOD/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <http://schema.alod.ch/aLOD/> <http://www.w3.org/2000/01/rdf-schema#label> "aLOD Group" .
