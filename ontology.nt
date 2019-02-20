@@ -7,6 +7,7 @@
 <http://schema.alod.ch/aLOD/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://schema.alod.ch/aLOD/id> <http://www.w3.org/2000/01/rdf-schema#comment> "identifiant de l'instance du canton" .
 <http://schema.alod.ch/aLOD/id> <http://www.w3.org/2000/01/rdf-schema#label> "id" .
+<http://schema.alod.ch/aLOD/id> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<xsd:boolean> .
 <http://schema.alod.ch/aLOD/identifier> <http://schema.org/domainIncludes> <http://schema.alod.ch/aLOD/Canton> .
 <http://schema.alod.ch/aLOD/identifier> <http://schema.org/domainIncludes> <http://schema.alod.ch/aLOD/Municipality> .
 <http://schema.alod.ch/aLOD/identifier> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#int> .
