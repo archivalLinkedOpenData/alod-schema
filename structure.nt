@@ -1,9 +1,13 @@
-<https://schema.alod.ch/archival/common> <http://purl.org/dc/terms/modified> "2019-02-26"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://schema.alod.ch/archival/common> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork> .
-<https://schema.alod.ch/archival/common> <http://www.w3.org/2000/01/rdf-schema#comment> "Common classes for the archival domain." .
-<https://schema.alod.ch/archival/common> <http://www.w3.org/2000/01/rdf-schema#label> "Common Classes" .
-<https://schema.alod.ch/archival> <https://schema.org/hasPart> <https://schema.alod.ch/archival/common> .
-<https://schema.alod.ch/archival> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork> .
-<https://schema.alod.ch/archival> <http://www.w3.org/2000/01/rdf-schema#label> "Archival Classes" .
-<https://schema.alod.ch/groups/> <https://schema.org/hasPart> <https://schema.alod.ch/archival> .
+<https://schema.alod.ch/aLOD/> <https://schema.org/hasPart> <https://schema.alod.ch/aLOD/ArchivalResource> .
+<https://schema.alod.ch/aLOD/> <https://schema.org/hasPart> <https://schema.alod.ch/aLOD/Canton> .
+<https://schema.alod.ch/aLOD/> <https://schema.org/hasPart> <https://schema.alod.ch/aLOD/Municipality> .
+<https://schema.alod.ch/aLOD/> <https://schema.org/hasPart> <https://schema.alod.ch/aLOD/TerritorialCommunity> .
+<https://schema.alod.ch/aLOD/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork> .
+<https://schema.alod.ch/aLOD/> <http://www.w3.org/2000/01/rdf-schema#label> "aLOD Group" .
+<https://schema.alod.ch/aLOD/ArchivalResource> <http://purl.org/dc/terms/modified> "2018-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://schema.alod.ch/aLOD/ArchivalResource> <https://schema.org/hasPart> <https://schema.alod.ch/schema/Record> .
+<https://schema.alod.ch/aLOD/ArchivalResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork> .
+<https://schema.alod.ch/aLOD/ArchivalResource> <http://www.w3.org/2000/01/rdf-schema#comment> "All classes defined by the aLOD Association." .
+<https://schema.alod.ch/aLOD/ArchivalResource> <http://www.w3.org/2000/01/rdf-schema#label> "Archival Resource" .
+<https://schema.alod.ch/groups/> <https://schema.org/hasPart> <https://schema.alod.ch/aLOD/> .
 <https://schema.alod.ch/groups/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork> .
