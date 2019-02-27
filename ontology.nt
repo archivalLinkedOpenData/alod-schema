@@ -1,0 +1,17 @@
+<https://schema.alod.ch/Canton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://schema.alod.ch/Canton> <http://www.w3.org/2000/01/rdf-schema#comment> "The 26 cantons of Switzerland are the member states of the Swiss Confederation" .
+<https://schema.alod.ch/Canton> <http://www.w3.org/2000/01/rdf-schema#label> "Canton" .
+<https://schema.alod.ch/date> <http://schema.org/domainIncludes> <https://schema.alod.ch/Canton> .
+<https://schema.alod.ch/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.alod.ch/date> <http://www.w3.org/2000/01/rdf-schema#comment> "\"Date of mutation\"@en \"Datum der Mutation\"@de\n" .
+<https://schema.alod.ch/date> <http://www.w3.org/2000/01/rdf-schema#label> "date" .
+<https://schema.alod.ch/id> <http://schema.org/domainIncludes> <https://schema.alod.ch/Canton> .
+<https://schema.alod.ch/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.alod.ch/id> <http://www.w3.org/2000/01/rdf-schema#comment> "The official identifier of the subject" .
+<https://schema.alod.ch/id> <http://www.w3.org/2000/01/rdf-schema#label> "id" .
+<https://schema.alod.ch/id> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<xsd:boolean> .
+<https://schema.alod.ch/longName> <http://schema.org/domainIncludes> <https://schema.alod.ch/Canton> .
+<https://schema.alod.ch/longName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.alod.ch/longName> <http://www.w3.org/2000/01/rdf-schema#comment> "Der Name des Kantons" .
+<https://schema.alod.ch/longName> <http://www.w3.org/2000/01/rdf-schema#label> "longName" .
+<https://schema.alod.ch/longName> <http://www.w3.org/2004/02/skos/core#example> "Zürich" .
