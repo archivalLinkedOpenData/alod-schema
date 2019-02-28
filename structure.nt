@@ -1,4 +1,5 @@
 <https://schema.alod.ch/archival/common> <http://purl.org/dc/terms/modified> "2019-02-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://schema.alod.ch/archival/common> <http://schema.org/hasPart> <https://schema.alod.ch/District> .
 <https://schema.alod.ch/archival/common> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://schema.alod.ch/archival/common> <http://www.w3.org/2000/01/rdf-schema#comment> "Common classes for the archival domain." .
 <https://schema.alod.ch/archival/common> <http://www.w3.org/2000/01/rdf-schema#label> "Common Classes" .
