@@ -1,0 +1,8 @@
+<https://schema.alod.ch/District> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://schema.alod.ch/District> <http://www.w3.org/2000/01/rdf-schema#comment> "Unité entre canton et commune qui n'est pas effective dans tous les cantons" .
+<https://schema.alod.ch/District> <http://www.w3.org/2000/01/rdf-schema#label> "District" .
+<https://schema.alod.ch/District> <http://www.w3.org/2004/02/skos/core#example> "La Gruyère est un district du Canton de Fribourg" .
+<https://schema.alod.ch/id> <http://schema.org/domainIncludes> <https://schema.alod.ch/District> .
+<https://schema.alod.ch/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.alod.ch/id> <http://www.w3.org/2000/01/rdf-schema#comment> "identifiant unique du district" .
+<https://schema.alod.ch/id> <http://www.w3.org/2000/01/rdf-schema#label> "id" .
