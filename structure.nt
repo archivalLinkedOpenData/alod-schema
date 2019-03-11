@@ -6,4 +6,7 @@
 <https://schema.alod.ch/archival> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://schema.alod.ch/archival> <http://www.w3.org/2000/01/rdf-schema#label> "Archival Classes" .
 <https://schema.alod.ch/groups> <http://schema.org/hasPart> <https://schema.alod.ch/archival> .
+<https://schema.alod.ch/groups> <http://schema.org/hasPart> <https://schema.alod.ch/test> .
 <https://schema.alod.ch/groups> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://schema.alod.ch/test> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://schema.alod.ch/test> <http://www.w3.org/2000/01/rdf-schema#label> "Test Classes" .
