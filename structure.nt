@@ -1,12 +1,12 @@
-<https://schema.alod.ch/archival/common> <http://purl.org/dc/terms/modified> "2019-02-26"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://schema.alod.ch/archival/common> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<https://schema.alod.ch/archival/common> <http://www.w3.org/2000/01/rdf-schema#comment> "Common classes for the archival domain." .
-<https://schema.alod.ch/archival/common> <http://www.w3.org/2000/01/rdf-schema#label> "Common Classes" .
-<https://schema.alod.ch/archival> <http://schema.org/hasPart> <https://schema.alod.ch/archival/common> .
+<https://schema.alod.ch/archival/generic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://schema.alod.ch/archival/generic> <http://www.w3.org/2000/01/rdf-schema#comment> "Generic classes in the archival domain." .
+<https://schema.alod.ch/archival/generic> <http://www.w3.org/2000/01/rdf-schema#label> "Generic Classes" .
+<https://schema.alod.ch/archival/test> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<https://schema.alod.ch/archival/test> <http://www.w3.org/2000/01/rdf-schema#comment> "Test classes in the archival domain." .
+<https://schema.alod.ch/archival/test> <http://www.w3.org/2000/01/rdf-schema#label> "Test Classes" .
+<https://schema.alod.ch/archival> <http://schema.org/hasPart> <https://schema.alod.ch/archival/generic> .
+<https://schema.alod.ch/archival> <http://schema.org/hasPart> <https://schema.alod.ch/archival/test> .
 <https://schema.alod.ch/archival> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://schema.alod.ch/archival> <http://www.w3.org/2000/01/rdf-schema#label> "Archival Classes" .
 <https://schema.alod.ch/groups> <http://schema.org/hasPart> <https://schema.alod.ch/archival> .
-<https://schema.alod.ch/groups> <http://schema.org/hasPart> <https://schema.alod.ch/test> .
 <https://schema.alod.ch/groups> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<https://schema.alod.ch/test> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<https://schema.alod.ch/test> <http://www.w3.org/2000/01/rdf-schema#label> "Test Classes" .
