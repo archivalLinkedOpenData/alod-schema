@@ -1,0 +1,9 @@
+<https://schema.alod.ch/DistrictEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://schema.alod.ch/DistrictEntity> <http://www.w3.org/2000/01/rdf-schema#comment> "Most cantons are divided into Districts" .
+<https://schema.alod.ch/DistrictEntity> <http://www.w3.org/2000/01/rdf-schema#label> "DistrictEntity" .
+<https://schema.alod.ch/DistrictEntity> <http://www.w3.org/2004/02/skos/core#note> "[https://en.wikipedia.org/wiki/District](https://en.wikipedia.org/wiki/District)_of_Switzerland"^^<http://media-type.described.at/text/markdown> .
+<https://schema.alod.ch/id> <http://schema.org/domainIncludes> <https://schema.alod.ch/DistrictEntity> .
+<https://schema.alod.ch/id> <http://schema.org/rangeIncludes> <http://www.w3.org/2000/01/rdf-schema#literal> .
+<https://schema.alod.ch/id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.alod.ch/id> <http://www.w3.org/2000/01/rdf-schema#comment> "The official identifier of the subject" .
+<https://schema.alod.ch/id> <http://www.w3.org/2000/01/rdf-schema#label> "id" .
