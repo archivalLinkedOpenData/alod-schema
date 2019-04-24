@@ -1,0 +1,115 @@
+<https://schema.alod.ch/Activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://schema.alod.ch/Activity> <http://www.w3.org/2000/01/rdf-schema#comment> "An activity is a generic term for work that a person or an organization performs. " .
+<https://schema.alod.ch/Activity> <http://www.w3.org/2000/01/rdf-schema#label> "Activity" .
+<https://schema.alod.ch/Activity> <http://www.w3.org/2004/02/skos/core#note> "An activity can be atomic or non-atomic (compound). The types of activities that are a part of a Process Model are: Process, Sub-Process, and Task.\n\nSame As [http://www.w3.org/ns/prov#](http://www.w3.org/ns/prov#)Activity"^^<http://media-type.described.at/text/markdown> .
+<https://schema.alod.ch/activityType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://schema.alod.ch/activityType> <http://www.w3.org/2000/01/rdf-schema#comment> "test" .
+<https://schema.alod.ch/activityType> <http://www.w3.org/2000/01/rdf-schema#label> "ActivityType" .
+<https://schema.alod.ch/alternative> <http://schema.org/domainIncludes> <https://schema.alod.ch/Activity> .
+<https://schema.alod.ch/alternative> <http://schema.org/rangeIncludes> <http://www.w3.org/2000/01/rdf-schema#literal> .
+<https://schema.alod.ch/alternative> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.alod.ch/alternative> <http://www.w3.org/2000/01/rdf-schema#comment> "Alternative Title" .
+<https://schema.alod.ch/alternative> <http://www.w3.org/2000/01/rdf-schema#label> "alternative" .
+<https://schema.alod.ch/alternative> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/dc/terms/alternative > .
+<https://schema.alod.ch/alternative> <http://www.w3.org/2004/02/skos/core#note> "An alternative name for the resource. The distinction between titles and alternative titles is application-specific."^^<http://media-type.described.at/text/markdown> .
+<https://schema.alod.ch/conformsTo> <http://schema.org/domainIncludes> <https://schema.alod.ch/Activity> .
+<https://schema.alod.ch/conformsTo> <http://schema.org/rangeIncludes> <http://purl.org/dc/terms/Standard > .
+<https://schema.alod.ch/conformsTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.alod.ch/conformsTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Conforms To" .
+<https://schema.alod.ch/conformsTo> <http://www.w3.org/2000/01/rdf-schema#label> "conformsTo" .
+<https://schema.alod.ch/conformsTo> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/dc/terms/conformsTo > .
+<https://schema.alod.ch/conformsTo> <http://www.w3.org/2004/02/skos/core#note> "An established standard to which the described resource conforms."^^<http://media-type.described.at/text/markdown> .
+<https://schema.alod.ch/date> <http://schema.org/domainIncludes> <https://schema.alod.ch/Activity> .
+<https://schema.alod.ch/date> <http://schema.org/rangeIncludes> <http://www.w3.org/2000/01/rdf-schema#literal> .
+<https://schema.alod.ch/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.alod.ch/date> <http://www.w3.org/2000/01/rdf-schema#comment> "Date" .
+<https://schema.alod.ch/date> <http://www.w3.org/2000/01/rdf-schema#label> "date" .
+<https://schema.alod.ch/date> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/dc/terms/date > .
+<https://schema.alod.ch/date> <http://www.w3.org/2004/02/skos/core#note> "A point or period of time associated with an event in the lifecycle of the resource."^^<http://media-type.described.at/text/markdown> .
+<https://schema.alod.ch/elementCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://schema.alod.ch/elementCategory> <http://www.w3.org/2000/01/rdf-schema#comment> "test" .
+<https://schema.alod.ch/elementCategory> <http://www.w3.org/2000/01/rdf-schema#label> "ElementCategory" .
+<https://schema.alod.ch/hasActivityPerformers> <http://schema.org/domainIncludes> <https://schema.alod.ch/Activity> .
+<https://schema.alod.ch/hasActivityPerformers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.alod.ch/hasActivityPerformers> <http://www.w3.org/2000/01/rdf-schema#comment> "Activity performers of this resource" .
+<https://schema.alod.ch/hasActivityPerformers> <http://www.w3.org/2000/01/rdf-schema#label> "hasActivityPerformers" .
+<https://schema.alod.ch/hasActivityType> <http://schema.org/domainIncludes> <https://schema.alod.ch/Activity> .
+<https://schema.alod.ch/hasActivityType> <http://schema.org/rangeIncludes> <https://schema.alod.ch/activityType> .
+<https://schema.alod.ch/hasActivityType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.alod.ch/hasActivityType> <http://www.w3.org/2000/01/rdf-schema#comment> "The activity type assigned to this resource." .
+<https://schema.alod.ch/hasActivityType> <http://www.w3.org/2000/01/rdf-schema#label> "hasActivityType" .
+<https://schema.alod.ch/hasActivityType> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://dkm.fbk.eu/index.php/BPMN_Ontology#has_activity_activity_type> .
+<https://schema.alod.ch/hasActivityType> <http://www.w3.org/2004/02/skos/core#note> "The ActivityType MUST be of type Process, Task or Sub-Process.\n\n(Process is not part of the vocabulary in BPMN documentation)"^^<http://media-type.described.at/text/markdown> .
+<https://schema.alod.ch/hasElementCategory> <http://schema.org/domainIncludes> <https://schema.alod.ch/Activity> .
+<https://schema.alod.ch/hasElementCategory> <http://schema.org/rangeIncludes> <https://schema.alod.ch/elementCategory> .
+<https://schema.alod.ch/hasElementCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.alod.ch/hasElementCategory> <http://www.w3.org/2000/01/rdf-schema#comment> "The element category assigned to this resource" .
+<https://schema.alod.ch/hasElementCategory> <http://www.w3.org/2000/01/rdf-schema#label> "hasElementCategory" .
+<https://schema.alod.ch/hasElementCategory> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://dkm.fbk.eu/index.php/BPMN_Ontology#has_BPMN_element_category> .
+<https://schema.alod.ch/hasElementCategory> <http://www.w3.org/2004/02/skos/core#note> "The modeler MAY add one or more defined Categories, which have user-defined semantics, and that can be used for purposes such as reporting and analysis. The details of Catogories is defined in Category on page 269."^^<http://media-type.described.at/text/markdown> .
+<https://schema.alod.ch/hasElementDocumentation> <http://schema.org/domainIncludes> <https://schema.alod.ch/Activity> .
+<https://schema.alod.ch/hasElementDocumentation> <http://schema.org/rangeIncludes> <http://www.w3.org/2001/XMLSchema#string> .
+<https://schema.alod.ch/hasElementDocumentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.alod.ch/hasElementDocumentation> <http://www.w3.org/2000/01/rdf-schema#comment> "owl:equivalentProperty http://dkm.fbk.eu/bpmn-ontology#has_BPMN_element_documentation" .
+<https://schema.alod.ch/hasElementDocumentation> <http://www.w3.org/2000/01/rdf-schema#label> "hasElementDocumentation" .
+<https://schema.alod.ch/hasElementDocumentation> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://dkm.fbk.eu/bpmn-ontology#has_BPMN_element_documentation> .
+<https://schema.alod.ch/hasElementId> <http://schema.org/domainIncludes> <https://schema.alod.ch/Activity> .
+<https://schema.alod.ch/hasElementId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.alod.ch/hasElementId> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifier of the element" .
+<https://schema.alod.ch/hasElementId> <http://www.w3.org/2000/01/rdf-schema#label> "hasElementId" .
+<https://schema.alod.ch/hasHistoryOfResource> <http://schema.org/domainIncludes> <https://schema.alod.ch/Activity> .
+<https://schema.alod.ch/hasHistoryOfResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.alod.ch/hasHistoryOfResource> <http://www.w3.org/2000/01/rdf-schema#comment> "History of this resource" .
+<https://schema.alod.ch/hasHistoryOfResource> <http://www.w3.org/2000/01/rdf-schema#label> "hasHistoryOfResource" .
+<https://schema.alod.ch/hasRelatedObject> <http://schema.org/domainIncludes> <https://schema.alod.ch/Activity> .
+<https://schema.alod.ch/hasRelatedObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.alod.ch/hasRelatedObject> <http://www.w3.org/2000/01/rdf-schema#comment> "Related object of this resource" .
+<https://schema.alod.ch/hasRelatedObject> <http://www.w3.org/2000/01/rdf-schema#label> "hasRelatedObject" .
+<https://schema.alod.ch/hasVersion> <http://schema.org/domainIncludes> <https://schema.alod.ch/Activity> .
+<https://schema.alod.ch/hasVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.alod.ch/hasVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "Version" .
+<https://schema.alod.ch/hasVersion> <http://www.w3.org/2000/01/rdf-schema#label> "hasVersion" .
+<https://schema.alod.ch/hasVersion> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/dc/terms/hasVersion > .
+<https://schema.alod.ch/hasVersion> <http://www.w3.org/2004/02/skos/core#note> "A related resource that is a version, edition, or adaptation of the described resource."^^<http://media-type.described.at/text/markdown> .
+<https://schema.alod.ch/issued> <http://schema.org/domainIncludes> <https://schema.alod.ch/Activity> .
+<https://schema.alod.ch/issued> <http://schema.org/rangeIncludes> <http://www.w3.org/2000/01/rdf-schema#literal> .
+<https://schema.alod.ch/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.alod.ch/issued> <http://www.w3.org/2000/01/rdf-schema#comment> "Date issued" .
+<https://schema.alod.ch/issued> <http://www.w3.org/2000/01/rdf-schema#label> "issued" .
+<https://schema.alod.ch/issued> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/dc/terms/issued> .
+<https://schema.alod.ch/issued> <http://www.w3.org/2004/02/skos/core#note> "Date of formal issuance (e.g., publication) of the resource."^^<http://media-type.described.at/text/markdown> .
+<https://schema.alod.ch/language> <http://schema.org/domainIncludes> <https://schema.alod.ch/Activity> .
+<https://schema.alod.ch/language> <http://schema.org/rangeIncludes> <http://purl.org/dc/terms/LinguisticSystem > .
+<https://schema.alod.ch/language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.alod.ch/language> <http://www.w3.org/2000/01/rdf-schema#comment> "Language" .
+<https://schema.alod.ch/language> <http://www.w3.org/2000/01/rdf-schema#label> "language" .
+<https://schema.alod.ch/language> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/dc/terms/language> .
+<https://schema.alod.ch/language> <http://www.w3.org/2004/02/skos/core#note> "A language of the resource."^^<http://media-type.described.at/text/markdown> .
+<https://schema.alod.ch/modified> <http://schema.org/domainIncludes> <https://schema.alod.ch/Activity> .
+<https://schema.alod.ch/modified> <http://schema.org/rangeIncludes> <http://www.w3.org/2000/01/rdf-schema#literal> .
+<https://schema.alod.ch/modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.alod.ch/modified> <http://www.w3.org/2000/01/rdf-schema#comment> "Date modified" .
+<https://schema.alod.ch/modified> <http://www.w3.org/2000/01/rdf-schema#label> "modified" .
+<https://schema.alod.ch/modified> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/dc/terms/modified> .
+<https://schema.alod.ch/modified> <http://www.w3.org/2004/02/skos/core#note> "Date on which the resource was changed."^^<http://media-type.described.at/text/markdown> .
+<https://schema.alod.ch/rights> <http://schema.org/domainIncludes> <https://schema.alod.ch/Activity> .
+<https://schema.alod.ch/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.alod.ch/rights> <http://www.w3.org/2000/01/rdf-schema#comment> "Usage rights" .
+<https://schema.alod.ch/rights> <http://www.w3.org/2000/01/rdf-schema#label> "rights" .
+<https://schema.alod.ch/source> <http://schema.org/domainIncludes> <https://schema.alod.ch/Activity> .
+<https://schema.alod.ch/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.alod.ch/source> <http://www.w3.org/2000/01/rdf-schema#comment> "Source" .
+<https://schema.alod.ch/source> <http://www.w3.org/2000/01/rdf-schema#label> "source" .
+<https://schema.alod.ch/source> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/dc/terms/source> .
+<https://schema.alod.ch/source> <http://www.w3.org/2004/02/skos/core#note> "A related resource from which the described resource is derived."^^<http://media-type.described.at/text/markdown> .
+<https://schema.alod.ch/title> <http://schema.org/domainIncludes> <https://schema.alod.ch/Activity> .
+<https://schema.alod.ch/title> <http://schema.org/rangeIncludes> <http://www.w3.org/2000/01/rdf-schema#literal> .
+<https://schema.alod.ch/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.alod.ch/title> <http://www.w3.org/2000/01/rdf-schema#comment> "Title" .
+<https://schema.alod.ch/title> <http://www.w3.org/2000/01/rdf-schema#label> "title" .
+<https://schema.alod.ch/title> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/dc/terms/title > .
+<https://schema.alod.ch/title> <http://www.w3.org/2004/02/skos/core#note> "A name given to the resource (_ISDF 1.2 Name)_"^^<http://media-type.described.at/text/markdown> .
+<https://schema.alod.ch/valid> <http://schema.org/domainIncludes> <https://schema.alod.ch/Activity> .
+<https://schema.alod.ch/valid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.alod.ch/valid> <http://www.w3.org/2000/01/rdf-schema#comment> "Validity" .
+<https://schema.alod.ch/valid> <http://www.w3.org/2000/01/rdf-schema#label> "valid" .
