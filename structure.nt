@@ -1,3 +1,4 @@
+<https://schema.alod.ch/archival/generic> <http://schema.org/hasPart> <https://schema.alod.ch/Event> .
 <https://schema.alod.ch/archival/generic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://schema.alod.ch/archival/generic> <http://www.w3.org/2000/01/rdf-schema#comment> "Generic classes in the archival domain." .
 <https://schema.alod.ch/archival/generic> <http://www.w3.org/2000/01/rdf-schema#label> "Generic Classes" .
