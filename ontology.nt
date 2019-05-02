@@ -1,3 +1,6 @@
+<https://schema.alod.ch/Date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://schema.alod.ch/Date> <http://www.w3.org/2000/01/rdf-schema#comment> "Date" .
+<https://schema.alod.ch/Date> <http://www.w3.org/2000/01/rdf-schema#label> "Date" .
 <https://schema.alod.ch/Function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://schema.alod.ch/Function> <http://www.w3.org/2000/01/rdf-schema#comment> "Function" .
 <https://schema.alod.ch/Function> <http://www.w3.org/2000/01/rdf-schema#label> "Function" .
