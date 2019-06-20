@@ -1,6 +1,7 @@
 <https://schema.alod.ch/archival/generic> <http://schema.org/hasPart> <https://schema.alod.ch/Activity> .
 <https://schema.alod.ch/archival/generic> <http://schema.org/hasPart> <https://schema.alod.ch/Agent> .
 <https://schema.alod.ch/archival/generic> <http://schema.org/hasPart> <https://schema.alod.ch/Date> .
+<https://schema.alod.ch/archival/generic> <http://schema.org/hasPart> <https://schema.alod.ch/Event> .
 <https://schema.alod.ch/archival/generic> <http://schema.org/hasPart> <https://schema.alod.ch/Function> .
 <https://schema.alod.ch/archival/generic> <http://schema.org/hasPart> <https://schema.alod.ch/Location> .
 <https://schema.alod.ch/archival/generic> <http://schema.org/hasPart> <https://schema.alod.ch/Object> .
