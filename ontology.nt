@@ -9,6 +9,10 @@
 <https://schema.alod.ch/b1> <http://www.w3.org/2000/01/rdf-schema#comment> "asfsaf" .
 <https://schema.alod.ch/b1> <http://www.w3.org/2000/01/rdf-schema#label> "b1" .
 <https://schema.alod.ch/b1> <http://www.w3.org/2004/02/skos/core#note> "agasgas asga g"^^<http://media-type.described.at/text/markdown> .
+<https://schema.alod.ch/b3> <http://schema.org/domainIncludes> <https://schema.alod.ch/b1> .
+<https://schema.alod.ch/b3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://schema.alod.ch/b3> <http://www.w3.org/2000/01/rdf-schema#comment> "wetwer t" .
+<https://schema.alod.ch/b3> <http://www.w3.org/2000/01/rdf-schema#label> "b3" .
 <https://schema.alod.ch/Date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://schema.alod.ch/Date> <http://www.w3.org/2000/01/rdf-schema#comment> "Date" .
 <https://schema.alod.ch/Date> <http://www.w3.org/2000/01/rdf-schema#label> "Date" .
