@@ -1,6 +1,6 @@
 _:b1 <http://schema.org/version> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
 _:b2 <http://schema.org/version> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:b6 <http://schema.org/version> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:b8 <http://schema.org/version> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://schema.alod.ch/archival/generic> <http://schema.org/hasPart> <https://schema.alod.ch/Activity> .
 <https://schema.alod.ch/archival/generic> <http://schema.org/hasPart> <https://schema.alod.ch/Agent> .
 <https://schema.alod.ch/archival/generic> <http://schema.org/hasPart> <https://schema.alod.ch/Date> .
