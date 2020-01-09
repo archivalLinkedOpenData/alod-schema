@@ -36,6 +36,10 @@
 <https://schema.alod.ch/Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://schema.alod.ch/Object> <http://www.w3.org/2000/01/rdf-schema#comment> "Object" .
 <https://schema.alod.ch/Object> <http://www.w3.org/2000/01/rdf-schema#label> "Object" .
+<https://schema.alod.ch/PhysicalObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://schema.alod.ch/PhysicalObject> <http://www.w3.org/2000/01/rdf-schema#comment> "Subklasse von Instance" .
+<https://schema.alod.ch/PhysicalObject> <http://www.w3.org/2000/01/rdf-schema#label> "Physical Object" .
+<https://schema.alod.ch/PhysicalObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.alod.ch/Instance> .
 <https://schema.alod.ch/Record> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://schema.alod.ch/Record> <http://www.w3.org/2000/01/rdf-schema#comment> "Description of a Record" .
 <https://schema.alod.ch/Record> <http://www.w3.org/2000/01/rdf-schema#label> "Record" .
