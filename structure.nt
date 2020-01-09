@@ -1,7 +1,8 @@
 _:b1 <http://schema.org/version> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:b11 <http://schema.org/version> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:b13 <http://schema.org/version> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
 _:b2 <http://schema.org/version> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
 _:b3 <http://schema.org/version> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:b4 <http://schema.org/version> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://schema.alod.ch/archival/generic> <http://schema.org/hasPart> <https://schema.alod.ch/Activity> .
 <https://schema.alod.ch/archival/generic> <http://schema.org/hasPart> <https://schema.alod.ch/Agent> .
 <https://schema.alod.ch/archival/generic> <http://schema.org/hasPart> <https://schema.alod.ch/Date> .
@@ -10,6 +11,7 @@ _:b3 <http://schema.org/version> "1"^^<http://www.w3.org/2001/XMLSchema#integer>
 <https://schema.alod.ch/archival/generic> <http://schema.org/hasPart> <https://schema.alod.ch/Instance> .
 <https://schema.alod.ch/archival/generic> <http://schema.org/hasPart> <https://schema.alod.ch/Location> .
 <https://schema.alod.ch/archival/generic> <http://schema.org/hasPart> <https://schema.alod.ch/Object> .
+<https://schema.alod.ch/archival/generic> <http://schema.org/hasPart> <https://schema.alod.ch/PhysicalObject> .
 <https://schema.alod.ch/archival/generic> <http://schema.org/hasPart> <https://schema.alod.ch/Record> .
 <https://schema.alod.ch/archival/generic> <http://schema.org/hasPart> <https://schema.alod.ch/Rights> .
 <https://schema.alod.ch/archival/generic> <http://schema.org/hasPart> <https://schema.alod.ch/Subject> .
