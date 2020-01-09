@@ -1,6 +1,7 @@
 _:b1 <http://schema.org/version> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:b11 <http://schema.org/version> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
 _:b2 <http://schema.org/version> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:b8 <http://schema.org/version> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:b3 <http://schema.org/version> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://schema.alod.ch/archival/generic> <http://schema.org/hasPart> <https://schema.alod.ch/Activity> .
 <https://schema.alod.ch/archival/generic> <http://schema.org/hasPart> <https://schema.alod.ch/Agent> .
 <https://schema.alod.ch/archival/generic> <http://schema.org/hasPart> <https://schema.alod.ch/Date> .
@@ -13,6 +14,7 @@ _:b8 <http://schema.org/version> "1"^^<http://www.w3.org/2001/XMLSchema#integer>
 <https://schema.alod.ch/archival/generic> <http://schema.org/hasPart> <https://schema.alod.ch/Rights> .
 <https://schema.alod.ch/archival/generic> <http://schema.org/hasPart> <https://schema.alod.ch/Subject> .
 <https://schema.alod.ch/archival/generic> <http://schema.org/hasPart> <https://schema.alod.ch/Ton> .
+<https://schema.alod.ch/archival/generic> <http://schema.org/hasPart> <https://schema.alod.ch/Video> .
 <https://schema.alod.ch/archival/generic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <https://schema.alod.ch/archival/generic> <http://www.w3.org/2000/01/rdf-schema#comment> "Generic classes in the archival domain." .
 <https://schema.alod.ch/archival/generic> <http://www.w3.org/2000/01/rdf-schema#label> "Generic Classes" .
