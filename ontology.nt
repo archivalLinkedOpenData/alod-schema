@@ -50,3 +50,7 @@
 <https://schema.alod.ch/T1> <http://www.w3.org/2000/01/rdf-schema#comment> "aaaaa" .
 <https://schema.alod.ch/T1> <http://www.w3.org/2000/01/rdf-schema#label> "T1" .
 <https://schema.alod.ch/T1> <http://www.w3.org/2004/02/skos/core#note> "asfas asfasf"^^<http://media-type.described.at/text/markdown> .
+<https://schema.alod.ch/Ton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://schema.alod.ch/Ton> <http://www.w3.org/2000/01/rdf-schema#comment> "Radiosendungen und Aufnahmen mit Musik und Sprache " .
+<https://schema.alod.ch/Ton> <http://www.w3.org/2000/01/rdf-schema#label> "Ton" .
+<https://schema.alod.ch/Ton> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.alod.ch/Instance> .
