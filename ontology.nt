@@ -26,6 +26,10 @@
 <https://schema.alod.ch/Function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://schema.alod.ch/Function> <http://www.w3.org/2000/01/rdf-schema#comment> "Function" .
 <https://schema.alod.ch/Function> <http://www.w3.org/2000/01/rdf-schema#label> "Function" .
+<https://schema.alod.ch/Instance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://schema.alod.ch/Instance> <http://www.w3.org/2000/01/rdf-schema#comment> "The inscription of information on a physical carrier in any persistent, recoverable form by an Agent as a means of communicating information through time and space." .
+<https://schema.alod.ch/Instance> <http://www.w3.org/2000/01/rdf-schema#label> "Instance" .
+<https://schema.alod.ch/Instance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.alod.ch/Object> .
 <https://schema.alod.ch/Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://schema.alod.ch/Location> <http://www.w3.org/2000/01/rdf-schema#comment> "Location" .
 <https://schema.alod.ch/Location> <http://www.w3.org/2000/01/rdf-schema#label> "Location" .
